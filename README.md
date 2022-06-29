@@ -26,6 +26,12 @@ many things including:
 - Usage of **Cosine Similarity** in 
   Recommendation System etc.
   
+## Screenshots
+
+![Screenshot (157)](https://user-images.githubusercontent.com/86141125/176416438-5f9ca8ba-732c-435f-a7bd-acd557262ce8.png)
+
+![streamlit_demo](https://user-images.githubusercontent.com/86141125/176417390-89b93bef-1420-4be9-99af-44b1107610a4.gif)
+  
 ## Deployment
 
 After creating the movie recommendation system,
