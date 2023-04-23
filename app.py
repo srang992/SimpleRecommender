@@ -14,14 +14,14 @@ def load_data():
     load and cache data
     :return: tfidf data
     """
-    tfidf_data = pd.read_feather("D:\\Netflix-Git\\SimpleRecommender\\data\\tfidf_data.feather")
+    tfidf_data = pd.read_feather("./data/tfidf_data.feather")
     tfidf_data = tfidf_data.set_index('title')
     return tfidf_data
 
 
 tfidf = load_data()
 
-with open("D:\\Netflix-Git\\SimpleRecommender\\data\\movie_list.pickle", "rb") as f:
+with open("./data/movie_list.pickle", "rb") as f:
     movies = pickle.load(f)
 
 dataframe = None
