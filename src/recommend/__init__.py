@@ -1,1 +1,1 @@
-from .recommend import recommend_table
+from src.recommend.recommend import recommend_table
